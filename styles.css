@@ -1,7 +1,63 @@
+@font-face {
+  font-family: Trek;
+  src: url(./resources/FEC_____.TTF);
+}
+
+* {
+	/*border: 1px solid red;*/
+}
+
 body {
 	background-color: lavender;
+	font-family: "Trek", cursive;
+	font-style: italic;
+	margin: 5rem;
 }
 
 p {
-	font-family: "Times New Roman", Times, serif;
+	font-size: 38px;
+	color: rgb(86, 14, 242);
+	font-family: "Orbitron", sans-serif;
+}
+
+h1 {
+	font-family: "Trek", cursive;
+	font-size: 104px;
+	color: rgb(64, 3, 196);
+	text-shadow: 2px 4px rgb(17, 241, 244);
+}
+
+h2 {
+	font-family: "Trek", cursive;
+	color: rgb(64, 3, 196);
+	text-shadow: 2px 4px rgb(17, 241, 244);
+	font-size: 54px;
+}
+
+.title {
+	text-align: center;
+}
+
+.list {
+	float: center;
+	width: 500px;
+	margin: auto;
+}
+
+li {
+	font-family: 'Trek', cursive;
+	font-size: 54px;
+	color: rgb(17, 241, 244);
+}
+
+.image-container {
+	box-shadow: 12px 12px 4px 4px rgba(0, 0, 255, .2);
+	width: 45%;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
